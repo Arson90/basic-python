@@ -1,7 +1,4 @@
 # LIST is a collection which is ordered and changeable. Allows duplicate members.
-import this
-
-
 numbers = [1, 3, 5, 7, 9]
 names = ["Tomek", "Kasia", "Basia", "Bartek", 'Jan']
 print("Numbers", numbers) 
@@ -31,7 +28,7 @@ print(type(tuple_list_different_types))
 myset = {"banan", "cytryna", "kiwi", "kiwi"}
 thisset = (("banan", "cytryna", "kiwi", "kiwi"))
 print(type(myset))
-print(type(this))
+print(type(thisset))
 
 # SET - Union
 first_set = {"A", "B", "C" , "D"}
