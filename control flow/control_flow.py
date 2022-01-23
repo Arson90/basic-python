@@ -4,13 +4,13 @@ num_B = 10
 city_A = "Warsaw"
 city_B = "Paris"
 
-# If and Else statments
+# If and Else statements
 if num_A > num_B:
     print(f"City {city_A}")
 else:
     print(f"City {city_B}")
 
-# If, Elif and Else statments
+# If, Elif and Else statements
 if city_A == city_B:
     print("City", city_A)
 elif city_A != city_B:
@@ -26,5 +26,3 @@ if not (city_A == city_B):
     myFunction(city_A)
 else:
     myFunction(city_B)
-
-
